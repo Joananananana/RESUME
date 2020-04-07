@@ -1,0 +1,210 @@
+
+#header{
+    background-color: rgba(126, 179, 149, 0.685);
+    color:white;
+    width: 580px;
+    height:30px;
+    font-family: sans-serif;
+    font-size:x-large;
+   }
+#h1{
+    position: relative;/*相对位置 相对本来的位置*/
+    top: 20px;
+    left:10px;
+} 
+#re{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width:580px;
+}
+#rel{
+    width:10% ;
+    height: 20px;
+    float: left;
+    background-color: seagreen;
+}
+#rec{
+    height: 20px;
+    float: left;
+    width: 10%;
+    color: seagreen;
+    text-align: center;
+    font-size:small;
+    line-height:20px; /*让字体垂直居中*/
+    font-weight: bold;
+}
+    
+#rer{
+    width: 80%;
+    float: left;
+    background-color: seagreen;
+    height: 20px;
+}
+#inf{
+    clear:both;
+}
+    #nav{
+        margin-top: 2px;
+    background-color: rgba(201, 201, 201, 0.493);
+    width: 150px;
+    height: 600px;
+    float: left;
+    }
+    #face{
+    background-color:white;
+    height: 150px;
+    width: 120px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    /*border-radius: 50%; 圆角*/
+    }
+
+    #mess{
+        height: 240px;
+    }
+    #honor{
+        height: 180px;
+    }
+    #na{
+
+        text-align: right;
+        padding-right: 15px;
+        font-family: sans-serif;
+        font-size: medium;
+        font-weight:bold ;
+        color: seagreen;
+        height: 25px;
+    }
+    #na1{
+        width: 100%;
+        float: right;
+        padding-right: 15px;
+        height:20px;
+        line-height: 20px;
+        text-align: right;
+        font-size: 14px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        color: black;
+    }
+    #na2{
+        width: 90%;
+        float: right;
+        padding-right: 15px;
+        
+        /* height:15px; */
+        line-height: 15px;
+        text-align: right;
+        font-size: small;
+        font-family: sans-serif;
+        color: rgba(0, 0, 0, 0.609);
+    }
+
+
+    #line{
+        
+        background-color:rgba(192, 192, 192, 0.651);
+        width: 80%;
+        height:0.8px;float: right;
+        margin-right: 15px;
+        margin-bottom: 10px;
+    }
+    #section{
+    float: left;
+    width:420px;/*height:600px;*/
+    }
+
+    #sec{
+        margin-top: 5px;
+        width: 100%;
+        float: left;
+    }
+    #na3{
+        padding-left: 15px;
+        font-family: sans-serif;
+        font-size: medium;
+        font-weight:bold ;
+        color: seagreen;
+        height: 25px;
+    }
+    #line1{
+        
+        background-color:rgba(192, 192, 192, 0.651);
+        width: 95%;
+        height:0.8px;
+        float: left;
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+    #secr{
+        float: left;
+        font-size: 14px;
+        line-height: 14px;
+        font-weight: bold;
+        color: rgba(0, 0, 0, 0.877);
+        font-family: serif;
+        margin-bottom: 10px;
+    }
+    #secrl{
+        width: 100px;
+        float: left;
+        padding-left: 15px;
+        /* display: flex; */
+        color: seagreen;
+    }
+    #secrr{
+        width: 300px;
+        float: right;
+        
+        
+    }
+    #secrbo{
+        padding-top: 10px;
+        width: 300px;
+        clear: both;
+        padding-left: 120px;
+        font-size: 12px;
+        color:grey;
+        
+    }
+
+
+    #jn{
+        padding-left: 15px;
+        float: left;
+        width: 180px;
+    }
+    #jnll{
+        float: left;
+        width: 100px;
+    }
+
+    
+
+
+    #footer{
+    background-color: rgba(126, 179, 149, 0.685);
+    height:30px;
+    padding:5px;
+    clear:both; /*清除浮动*/
+    width: 580px;
+    }
+    #round{
+        margin-top: 2px;
+        float: left;
+        margin-left: 2px;
+        width:12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color: rgba(126, 179, 149, 0.685);
+    }
+    #roundgrey{
+        margin-top: 2px;
+        float: left;
+        margin-left: 2px;
+        width:12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color: gray;
+    }
