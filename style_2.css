@@ -1,0 +1,72 @@
+.head{
+    height: 80px;
+    line-height: 80px; /*文本垂直居中*/
+    background-color: grey;
+    color: white;
+    font-size: 50px;
+    
+}
+span{
+    font-weight:bold;
+}
+.bbox{
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    
+}
+.box{
+    width: 100%;
+    float: left;
+    border: 1px;
+    
+}
+ul{
+    list-style-type:none;
+    text-decoration: none;
+  padding: 1em 2em;
+}
+li{
+    padding-left: 1em;
+    float: left;
+}
+a{
+    color: green;
+}
+
+.li1{
+    width: 100%;
+    padding-top: 1em;
+}
+a:hover{
+    color: lightgreen;
+
+}
+.left{
+    width: 10%;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    float: left;
+    border-bottom: 1px solid white;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background-color:lightgrey;
+    
+
+}
+.right{
+    height: 150px;
+
+    float: left;
+    width: 90%;
+    text-indent: 2em;
+    
+    border-top:1px solid lightgrey;
+}
+.clearfloat{
+    clear:both;
+}
+/* div高度自适应内部div高度
+在div前加一个子div 清除浮动 */
