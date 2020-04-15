@@ -1,10 +1,20 @@
 .head{
     height: 80px;
     line-height: 80px; /*文本垂直居中*/
-    background-color: grey;
+    background-color:rgba(0, 0, 0, 0.425);
     color: white;
-    font-size: 50px;
-    
+    font-size: 50px;  
+}
+.sayhi{
+    float: right;
+}
+#hi{
+    width: 150px;
+    height: 80px;
+    background-color:seagreen;
+    border: none;
+    font-size: x-large;
+    color: white;
 }
 span{
     font-weight:bold;
@@ -30,8 +40,16 @@ li{
     padding-left: 1em;
     float: left;
 }
+li:nth-of-type(4){
+    color: seagreen;
+    
+}
+
+li:nth-of-type(4){
+    display: none;
+}
 a{
-    color: green;
+    color: seagreen;
 }
 
 .li1{
@@ -39,7 +57,7 @@ a{
     padding-top: 1em;
 }
 a:hover{
-    color: lightgreen;
+    color: goldenrod;
 
 }
 .left{
@@ -51,7 +69,7 @@ a:hover{
     border-bottom: 1px solid white;
     font-size: 20px;
     font-weight: bold;
-    color: black;
+    color: rgba(0, 0, 0, 0.719);
     background-color:lightgrey;
     
 
@@ -62,7 +80,7 @@ a:hover{
     float: left;
     width: 90%;
     text-indent: 2em;
-    
+    color: rgba(0, 0, 0, 0.719);
     border-top:1px solid lightgrey;
 }
 .clearfloat{
