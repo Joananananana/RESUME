@@ -8,13 +8,19 @@
 .sayhi{
     float: right;
 }
-#hi{
+
+#hi,#hour{
+    float:right;
     width: 150px;
     height: 80px;
-    background-color:seagreen;
+    background-color:rgb(36, 104, 66);
     border: none;
     font-size: x-large;
     color: white;
+}
+#hour{
+    background-color:seagreen;
+    text-align: center;
 }
 span{
     font-weight:bold;
