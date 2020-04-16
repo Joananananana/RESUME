@@ -15,11 +15,11 @@
             var h= parseInt(d.getHours());
             if((h>=21 && h<=24)||(h>=0 && h<=6))
             document.getElementById("hour").value="夜深了！";
-            if(h>=6 && h<=12)
+            if(h>=6 && h<12)
             document.getElementById("hour").value="早上好！";
-            if(h>12 && h<=15)
+            if(h>=12 && h<15)
             document.getElementById("hour").value="中午好!";
-            if(h>15 && h<=18)
+            if(h>=15 && h<=18)
             document.getElementById("hour").value="下午好！";
             if(h>18 && h<=19)
             document.getElementById("hour").value="夜幕将至！";
